@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "205461602920",
+    "firebase_url": "https://aisatblood-donation.firebaseio.com",
+    "project_id": "aisatblood-donation",
+    "storage_bucket": "aisatblood-donation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205461602920:android:4e9ccedc982fca03",
+        "android_client_info": {
+          "package_name": "com.sdc.aisat.annajijo.blooddonation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205461602920-o728gvcic3su4gi95g3q8db4991onlf0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sdc.aisat.annajijo.blooddonation",
+            "certificate_hash": "4e04bbcf45af786e044d62bf6846c0ace3ea9ad9"
+          }
+        },
+        {
+          "client_id": "205461602920-vtcf0kk9t5emqo1920uadna713hgfj4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN5M-qSm8yz4QuCqaCHvhewUtZumvTcEg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205461602920-vtcf0kk9t5emqo1920uadna713hgfj4r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sdc.aisat.annajijo.blooddonation">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/aaa"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".authentication.LoginPage" />
+        <activity android:name=".authentication.SignupPage" />
+        <activity android:name=".main_things.ModulePage" />
+        <activity android:name=".main_things.PostBloodRequirment" />
+        <activity android:name=".main_things.HomePage" />
+        <activity android:name=".main_things.MyRequestPage" />
+        <activity android:name=".main_things.NotificationPage" />
+        <activity android:name=".main_things.SettingPage" />
+        <activity android:name=".main_things.HomeModule" />
+        <activity android:name=".main_things.DonorPage"></activity>
+    </application>
+
+</manifest>

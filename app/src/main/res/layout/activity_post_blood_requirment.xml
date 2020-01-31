@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.sdc.aisat.annajijo.blooddonation.main_things.PostBloodRequirment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blood Group:"/>
+
+    <Spinner
+        android:id="@+id/spinnerBloodGroupId"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No of Units required:"/>
+
+    <EditText
+        android:id="@+id/unitsRequiredEtId"
+        android:layout_width="match_parent"
+        android:layout_height="50sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Urgency:"/>
+
+    <Spinner
+        android:id="@+id/spinnerUrgencyId"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Country:"/>
+
+
+    <Spinner
+        android:id="@+id/spinnerCountryId"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="State:"/>
+
+
+    <Spinner
+        android:id="@+id/spinnerStateId"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="City:"/>
+
+    <Spinner
+        android:id="@+id/spinnerCityId"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hospital:"/>
+
+    <Spinner
+        android:id="@+id/spinnerHospitalId"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your relation with patient:"/>
+
+    <Spinner
+        android:id="@+id/spinnerPatientRelationId"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact No:"/>
+
+    <EditText
+        android:id="@+id/contactnoEtId"
+        android:layout_width="match_parent"
+        android:layout_height="50sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Additional instructions:"/>
+
+    <EditText
+        android:id="@+id/instructionEtId"
+        android:layout_width="match_parent"
+        android:layout_height="100sp" />
+
+
+    <Button
+        android:id="@+id/postBtnId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="4dp"
+        android:text="Post"
+        style="@style/DefaultButtonText"
+        android:background="@drawable/button_default_bg"
+        />
+
+</LinearLayout>
+</ScrollView>
